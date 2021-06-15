@@ -3,7 +3,7 @@
 --1
 ends :: [Int] -> [Int]
 ends [] = []
-ends x = head x : tail ([last x])
+ends x = head x : [last x]
 
 --2
 deduzame :: [Integer] -> [Integer]
